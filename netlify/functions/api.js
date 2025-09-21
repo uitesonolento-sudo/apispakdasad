@@ -7,9 +7,9 @@ const express = require("express");
 const fetch = require("node-fetch");
 const cors = require("cors");
 
-const { snowflakeToDate } = require(".../utils");
+const { snowflakeToDate } = require("../../utils");
 
-const { USER_FLAGS, APPLICATION_FLAGS } = require(".../Constants");
+const { USER_FLAGS, APPLICATION_FLAGS } = require("../../Constants");
 
 require('dotenv').config();
 
