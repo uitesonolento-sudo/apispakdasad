@@ -193,9 +193,3 @@ const requestListener = async (req, res) => {
     // Rota não encontrada
     sendJSON(res, 404, { message: '404 - Not Found' });
 };
-
-const server = http.createServer(requestListener);
-
-server.listen(PORT, '127.0.0.1', () => {
-    console.log(`Server is running at http://127.0.0.1:${PORT}`);
-});
